@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="profile-card">
+    <header class="head">
+      <div class="photo-wrap">
+        <img id="profile-photo" src="file:///F:/New%20folder/New%20folder/New%20folder/file_0000000097a87207bc1b8554766e7dad.png" alt="Profile photo" onerror="this.style.display='none'"/>
+        <svg id="placeholder-photo" viewBox="0 0 128 128" xmlns="file:///F:/New%20folder/New%20folder/New%20folder/file_0000000097a87207bc1b8554766e7dad.png" aria-hidden="true">
+          
+          
+        </svg>
+        <img id="profile-photo" src="" alt="Profile photo" onerror="this.style.display='none'"/>
+      </div>
+      <div class="meta">
+        <h1 id="name">Niru Kumar</h1>
+        <p class="title">Software Engineer</p>
+        <div class="contacts">
+          <a id="email" href="mailto:you@example.com">neerumbh@gmail.com</a>
+          <button id="copy-email" title="Copy email">Copy</button>
+          <a id="phone" href="tel:+1234567890">+7800790067</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="about">
+      <h2>About</h2>
+      <p id="about-text">My name is Neeru Kumar. I am from Sundergradh, Bihar, 
+        and I am currently living in Kanpur, Uttar Pradesh, for my education.<br><br>
+
+My family moved to Kanpur in 2018 in search of better work opportunities. 
+Since then, I have continued my studies and worked hard to build a better future.
+ Education has helped me gain confidence and improve my English-speaking skills.<br>
+
+I am a hardworking, honest, and responsible student. 
+I enjoy learning new things and always try to improve my knowledge and skills.<br><br>
+
+My hobbies are reading books, coding, photography, and 
+playing outdoor games such as Kho-Kho, Volleyball, and Football. 
+Reading helps me gain knowledge, coding allows me to create websites, photography 
+lets me capture beautiful moments, and sports keep me healthy and active.<br>
+
+I have skills in HTML, CSS, JavaScript, 
+Computer Basics, Microsoft Word, Microsoft PowerPoint, communication, and problem-solving. 
+I enjoy learning about Artificial Intelligence, Web Development, 
+Science and Technology, Photography and Video Editing, Graphic Designing, and 
+I also prepare for future government job opportunities.<br><br>
+
+My goal is to become a successful professional, continue learning new skills, 
+support my family, and make a positive contribution to society. I believe that hard work, 
+discipline, and determination are the keys to achieving success.<br><br></p>
+    </section>
+
+    <section class="gallery">
+      <h2>Photos</h2>
+      <div class="photos-grid">
+        <img src="file:///F:/New%20folder/New%20folder/New%20folder/file_000000006794720684373c46a243e402.png" alt="photo1">
+        <img src="file:///F:/New%20folder/New%20folder/New%20folder/file_0000000097a87207bc1b8554766e7dad.png" alt="photo2">
+        <img src="file:///F:/New%20folder/New%20folder/New%20folder/file_0000000097a87207bc1b8554766e7dad.png" alt="photo3">
+      </div>
+    </section>
+
+    <footer class="actions">
+      <a class="btn" href="#" id="download-vcard">Download vCard</a>
+      <button class="btn" id="toggle-theme">Toggle Dark</button>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
